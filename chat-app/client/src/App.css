@@ -1,0 +1,116 @@
+/* 전체 페이지 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* 채팅 컨테이너 */
+.chat-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 입력 필드 */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* 버튼 */
+button {
+    width: 85%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 채팅 메시지 */
+.chat-box {
+    height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.message {
+    padding: 8px;
+    margin: 5px 0;
+    background: #d1ecf1;
+    border-radius: 5px;
+    text-align: left;
+}
+/* 뒤로 가기 & 나가기 버튼 */
+.back-btn,
+.leave-btn {
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+.back-btn:hover {
+    background-color: #e0a800;
+}
+
+.leave-btn:hover {
+    background-color: #c82333;
+}
+
+/* 채팅방 목록 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+li button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li button:hover {
+    background-color: #218838;
+}
